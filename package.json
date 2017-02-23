@@ -5,6 +5,17 @@
   "repository": {
     "type": "git"
   },
+  "scripts":{
+    "postinstall": "bower install",
+
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+
+    "pretest": "npm install",
+  },
   "engines": {
     "node": "6.3.1",
     "npm": "3.10.3"
