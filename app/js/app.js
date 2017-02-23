@@ -51,6 +51,7 @@ angular
                 $scope.patient.dob = new moment($scope.patient).format('l');
                 firebase.database().ref().child(uid).set($scope.patient);
                 $scope.patient = {};
+                $scope.err_msg = false;
                 alert("data sent"); 
             }
     };
