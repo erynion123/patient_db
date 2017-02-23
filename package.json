@@ -1,0 +1,14 @@
+{
+  "name": "Patient_db",
+  "version": "1.0.0",
+  "description": "Patient_db",
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": "6.3.1",
+    "npm": "3.10.3"
+  },
+  "author": "Akash Babber",
+  "license": "ISC"
+}
